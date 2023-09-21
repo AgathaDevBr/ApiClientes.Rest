@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiClientes.Services</name>
+    </assembly>
+    <members>
+        <member name="T:ApiClientes.Services.Configurations.AutoMapperConfiguration">
+            <summary>
+            Classe para adicionar a configuração do AutoMapper
+            </summary>
+        </member>
+        <member name="T:ApiClientes.Services.Configurations.SwaggerConfiguration">
+            <summary>
+            Classe para customizar a documentação gerada pelo Swagger
+            </summary>
+        </member>
+        <member name="M:ApiClientes.Services.Controllers.ClientesController.Post(ApiClientes.Services.Models.Requests.ClientesCreateRequest)">
+            <summary>
+            Serviço para cadastro de clientes.
+            </summary>
+        </member>
+        <member name="M:ApiClientes.Services.Controllers.ClientesController.Put(ApiClientes.Services.Models.Requests.ClientesUpdateRequest)">
+            <summary>
+            Serviço para edição de clientes.
+            </summary>
+        </member>
+        <member name="M:ApiClientes.Services.Controllers.ClientesController.Delete(System.Nullable{System.Guid})">
+            <summary>
+            Serviço para exclusão de clientes.
+            </summary>
+        </member>
+        <member name="M:ApiClientes.Services.Controllers.ClientesController.GetAll">
+            <summary>
+            Serviço para consultar todos os clientes cadastrados.
+            </summary>
+        </member>
+        <member name="M:ApiClientes.Services.Controllers.ClientesController.GetById(System.Nullable{System.Guid})">
+            <summary>
+            Serviço para consultar 1 cliente através do id.
+            </summary>
+        </member>
+        <member name="T:ApiClientes.Services.Models.ClientesViewModel">
+            <summary>
+            Modelo de dados para a entidade Cliente na API
+            </summary>
+        </member>
+        <member name="T:ApiClientes.Services.Models.Requests.ClientesCreateRequest">
+            <summary>
+            Modelo de dados para o serviço de cadastro de cliente
+            </summary>
+        </member>
+        <member name="T:ApiClientes.Services.Models.Requests.ClientesUpdateRequest">
+            <summary>
+            Modelo de dados para o serviço de edição de cliente
+            </summary>
+        </member>
+        <member name="T:ApiClientes.Services.Models.Responses.ClientesResponse">
+            <summary>
+            Modelo de dados para resposta dos processamentos de
+            CREATE, UPDATE ou DELETE para cliente
+            </summary>
+        </member>
+    </members>
+</doc>
